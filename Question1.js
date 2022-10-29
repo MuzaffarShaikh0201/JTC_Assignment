@@ -3,6 +3,12 @@
  * 	2 4 6 8 10
  * output: modified array eg,
  * 	[10, 2, 8, 4, 6]
+ * Time complexity: O(n)
+ * Space complexity: O(1)
+ * Test Cases: Test 1 => input: 1 2 3 4 5 6
+ *                       output: [6, 1, 5, 2, 4, 3]
+ *             Test 2 => input: 3 6 9 12 15
+ *                       output: [15, 3, 12, 6, 9]
  * */
 
 const readline = require("readline").createInterface(
